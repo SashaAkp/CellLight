@@ -1,0 +1,22 @@
+<Project>
+  <Project.ExportOptions Namespace="CellLight" Class="EditorGUI" OutputPath="C:\Users\Sasha\source\repos\CellLight\CellLight" />
+  <Panel MinWidth="1280" MaxWidth="1920" MinHeight="720" MaxHeight="1080" ZIndex="10">
+    <Label Text="FPS:/nTPS:" Id="FTPSlabel" />
+    <HorizontalSlider HorizontalAlignment="Left" Maximum="1" Width="200" Height="20" Border="#D9D9D9FF" BorderThickness="1, 0, 0, 1" VerticalAlignment="Bottom" Background="#212121FF" Id="ContrastSlider" />
+    <Label Text="Contrast:" Top="-20" Width="200" Height="20" Border="#D9D9D9FF" BorderThickness="1, 0, 0, 0" VerticalAlignment="Bottom" Background="#202020FF" Id="ContrastLabel" />
+    <HorizontalStackPanel ShowGridLines="True" GridLinesColor="#D9D9D9FF" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="280" Height="40" Border="#D9D9D9FF" BorderThickness="1, 1, 1, 0">
+      <RadioButton UncheckedImage="bin/Debug/net8.0/PNGS/IconEditorPanel1.png" Width="40" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#000000FF" Id="Brush1" />
+      <RadioButton UncheckedImage="bin/Debug/net8.0/PNGS/IconEditorPanel3.png" Width="40" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#000000FF" Id="Brush2" />
+      <RadioButton UncheckedImage="bin/Debug/net8.0/PNGS/IconEditorPanel5.png" Width="40" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#000000FF" Id="Brush3" />
+      <RadioButton UncheckedImage="bin/Debug/net8.0/PNGS/IconEditorPanel7.png" Width="40" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#000000FF" Id="Brush4" />
+      <RadioButton UncheckedImage="bin/Debug/net8.0/PNGS/IconEditorPanel9.png" CheckedImage="bin/Debug/net8.0/PNGS/IconEditorPanel9.png" Width="40" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#000000FF" Id="Brush5" />
+      <RadioButton UncheckedImage="bin/Debug/net8.0/PNGS/IconEditorPanel11.png" Width="40" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#000000FF" Id="Brush6" />
+      <RadioButton UncheckedImage="bin/Debug/net8.0/PNGS/IconEditorPanel11.png" CheckedImage="bin/Debug/net8.0/PNGS/IconEditorPanel13.png" Width="40" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#000000FF" Id="Brush7" />
+    </HorizontalStackPanel>
+    <TextBox HorizontalAlignment="Center" Left="190" Width="100" Height="20" Border="#D9D9D9FF" BorderThickness="1, 0, 0, 1" VerticalAlignment="Bottom" Background="#202020FF" Id="Nvaluetxtbox" />
+    <Label Text="Refraction" Left="190" Top="-20" Width="100" Height="20" Border="#D9D9D9FF" BorderThickness="1, 0, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#202020FF" ClipToBounds="True" Id="Nvaluelabel" />
+    <Button Left="260" Width="40" Height="40" HorizontalAlignment="Center" VerticalAlignment="Bottom" Id="Nvaluebtn">
+      <Label Text="Cha/nnge" TextAlign="Center" Width="40" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    </Button>
+  </Panel>
+</Project>
